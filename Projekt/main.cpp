@@ -1,25 +1,7 @@
 #include <iostream>
+#include "maximum_feld.h"
 
 using namespace std;
-
-/**
-    * Berechnet das Maximum eines Feldes
-    * Parameter: feld - Das Feld
-    * Rueckgabe: das Maximum
-*/
-int maximum_feld( int feld[] )
-{
-    int Max = 0;
-
-    for ( int i = 0 ; i < 6 ; i += 1 )
-    {
-        if ( feld[i] > Max)
-            Max = feld[i];
-    }
-
-    return Max;
-}
-
 
 int main()
 {
